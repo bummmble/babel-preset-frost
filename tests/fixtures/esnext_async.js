@@ -1,3 +1,3 @@
 async function test() {
-    await meow();
+  await meow();
 }
