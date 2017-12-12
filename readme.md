@@ -79,6 +79,10 @@ const defaults = {
 
     // Do not apply minification by default
     minified: false
+
+    // Decides whether it should add specific presets and plugins for framework.
+    // Right now only 'react' and 'none' are supported
+    framework: 'react'
 }
 ```
 
