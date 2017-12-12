@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/bummmble/babel-preset-frost.svg?style=svg)](https://circleci.com/gh/bummmble/babel-preset-frost)
 # babel-preset-frost
 
 > A modern Babel configuration for a pleasant development experience
