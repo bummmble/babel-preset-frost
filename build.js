@@ -1,5 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 const { rollup } = require('rollup');
+const babel = require('rollup-plugin-babel');
 const builtinModules = require('builtin-modules');
 const args = require('minimist')(process.argv.slice(2));
 const pkg = require('./package.json');
@@ -19,10 +20,11 @@ function build() {
   return rollup({
     entry: 'src/index.js',
     external,
+    plugins: [babel()],
   })
     .then(({ write }) =>
       write({
-        dest: name,
+        dest: `dist/${name}`,
         format,
       }))
     .then(() => console.log(`Babel-Preset-Frost built in ${format} format`))
