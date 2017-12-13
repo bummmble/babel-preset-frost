@@ -1,5 +1,5 @@
-[![CircleCI](https://circleci.com/gh/bummmble/babel-preset-frost.svg?style=svg)](https://circleci.com/gh/bummmble/babel-preset-frost)
-[![codecov](https://codecov.io/gh/bummmble/babel-preset-frost/branch/master/graph/badge.svg)](https://codecov.io/gh/bummmble/babel-preset-frost)
+[![Build Status](https://circleci.com/gh/bummmble/babel-preset-frost.svg?style=svg)](https://circleci.com/gh/bummmble/babel-preset-frost)
+[![coverage](https://codecov.io/gh/bummmble/babel-preset-frost/branch/master/graph/badge.svg)](https://codecov.io/gh/bummmble/babel-preset-frost)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
