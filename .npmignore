@@ -1,0 +1,9 @@
+.nyc_output
+src
+tests
+.editorconfig
+.eslintrc.js
+.gitignore
+build.js
+circle.yml
+coverage.lcov
